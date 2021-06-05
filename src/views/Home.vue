@@ -1,16 +1,15 @@
 <template>
-  <hello-world />
+<div>
+
+</div>
 </template>
 
 <script lang="ts">
-  import Vue from 'vue'
-  import HelloWorld from '../components/HelloWorld.vue'
+import { Vue, Component } from 'vue-property-decorator';
 
-  export default Vue.extend({
-    name: 'Home',
-
-    components: {
-      HelloWorld,
-    },
-  })
+@Component({
+  name: 'Home'
+})
+export default class Home extends Vue {
+}
 </script>

@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <the-layout>
+    <Thelayout>
 
-    </the-layout>
+    </Thelayout>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
 import Thelayout from './layout/general/TheLayout.vue';
+
 @Component({
   name: 'App',
   components: {

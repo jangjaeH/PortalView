@@ -1,21 +1,24 @@
 <template>
-  <div id="app">
-    <Thelayout>
+  <v-app id="app">
+    <TheLayout>
 
-    </Thelayout>
-  </div>
+    </TheLayout>
+  </v-app>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import Thelayout from './layout/general/TheLayout.vue';
+import TheLayout from './layout/general/TheLayout.vue';
 
 @Component({
   name: 'App',
   components: {
-    Thelayout
+    TheLayout
   }
 })
 export default class App extends Vue {
 }
 </script>
+<style scoped>
+
+</style>

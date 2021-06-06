@@ -13,3 +13,6 @@ import { Vue, Component } from 'vue-property-decorator';
 export default class Home extends Vue {
 }
 </script>
+<style scoped>
+
+</style>

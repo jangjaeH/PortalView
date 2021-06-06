@@ -1,5 +1,9 @@
 # portalview
 
+# 최종목표
+1. 중고가전제품 등록 및 판매
+2. 판매된 품목 AS 횟수
+3. 월 매출 년 매출 관리
 ## Project setup
 ```
 npm install
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

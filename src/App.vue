@@ -1,8 +1,6 @@
 <template>
   <v-app id="app">
-    <TheLayout>
-
-    </TheLayout>
+    <TheLayout></TheLayout>
   </v-app>
 </template>
 

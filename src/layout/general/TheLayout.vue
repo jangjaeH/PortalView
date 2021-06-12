@@ -1,7 +1,7 @@
 <template>
     <div>
-        <TopBar></TopBar>
-        <LeftBar></LeftBar>
+        <TopBar @toggleMenu= "toggleMenu"></TopBar>
+        <LeftBar :show="show"></LeftBar>
         <FooTerBar></FooTerBar>
     </div>
 </template>
@@ -17,9 +17,14 @@ import FooTerBar from './component/footer-bar.vue'
       LeftBar,
       TopBar,
       FooTerBar
-  }
+  },
 })
 export default class TheLayout extends Vue {
+    private show = true;
+
+    private toggleMenu() {
+        this.show = !this.show
+    }
 }
 </script>
 <style scoped>

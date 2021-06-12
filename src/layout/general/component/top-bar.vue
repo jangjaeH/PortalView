@@ -1,11 +1,13 @@
-<template> 
-  <v-card
-    flat
-    height="60px"
-    tile
-  >
-    <v-toolbar dense>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+<template>
+<div>
+    <v-app-bar 
+     style="z-index:10;"
+     color="depp-purple accent-4"
+     dense
+     dark
+     fixed
+     >
+      <v-app-bar-nav-icon @click="$emit('toggleMenu')"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Title</v-toolbar-title>
 
@@ -22,8 +24,8 @@
       <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
-    </v-toolbar>
-  </v-card>
+    </v-app-bar>
+</div>
 </template>
 
 <script lang="ts">
